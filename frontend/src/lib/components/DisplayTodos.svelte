@@ -79,8 +79,8 @@
                     <span class={todo.done ? "line-through text-green-500" : "text-gray-700"}>{todo.text}</span>
                 </div>
                 <div class="flex space-x-2">
-                    <button on:click={() => openUpdateModal(todo)} class="bg-cyan-500 text-white px-2 py-1 rounded">Update</button>
-                    <button on:click={() => openDeleteModal(todo)} class="bg-red-500 text-white px-2 py-1 rounded">Delete</button>
+                    <button on:click={() => openUpdateModal(todo)} class="bg-cyan-500 hover:bg-cyan-700 text-white px-2 py-1 rounded">Update</button>
+                    <button on:click={() => openDeleteModal(todo)} class="bg-red-500 hover:bg-red-700 text-white px-2 py-1 rounded">Delete</button>
                 </div>
             </div>
         </li>
